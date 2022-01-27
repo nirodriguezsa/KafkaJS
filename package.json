@@ -1,0 +1,24 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirodriguezsa/KafkaJS.git"
+  },
+  "author": "Nicolas Rodriguez Salguero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirodriguezsa/KafkaJS/issues"
+  },
+  "homepage": "https://github.com/nirodriguezsa/KafkaJS#readme",
+  "dependencies": {
+    "avsc": "^5.7.3",
+    "node-rdkafka": "^2.12.0"
+  }
+}
